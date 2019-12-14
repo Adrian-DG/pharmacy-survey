@@ -1,3 +1,3 @@
-# Web-calculator 
+# Pharmacy Survey 
 
-This website shows a web calculator
+link: https://adrian-dg.github.io/pharmacy-survey/
