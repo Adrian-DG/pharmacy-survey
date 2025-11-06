@@ -26,10 +26,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Serve only specific static files, not the entire directory
-app.use('/style.css', express.static(path.join(__dirname, 'style.css')));
-app.use('/main.js', express.static(path.join(__dirname, 'main.js')));
-app.use('/pharmacy-agent.jpg', express.static(path.join(__dirname, 'pharmacy-agent.jpg')));
-app.use('/survey.PNG', express.static(path.join(__dirname, 'survey.PNG')));
+const allowedStaticFiles = {
+    '/style.css': 'style.css',
+    '/main.js': 'main.js',
+    '/pharmacy-agent.jpg': 'pharmacy-agent.jpg',
+    '/survey.PNG': 'survey.PNG'
+};
+
+Object.entries(allowedStaticFiles).forEach(([route, file]) => {
+    app.use(route, express.static(path.join(__dirname, file)));
+});
 
 // Route to serve the HTML file
 app.get('/', (req, res) => {

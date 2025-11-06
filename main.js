@@ -24,10 +24,13 @@ $(document).ready(function () {
                 // Reset form
                 $('#surveyForm')[0].reset();
                 
-                // Scroll to message
-                $('html, body').animate({
-                    scrollTop: $('#responseMessage').offset().top - 100
-                }, 500);
+                // Scroll to message if element exists
+                const messageElement = $('#responseMessage');
+                if (messageElement.length) {
+                    $('html, body').animate({
+                        scrollTop: messageElement.offset().top - 100
+                    }, 500);
+                }
             },
             error: function(xhr, status, error) {
                 // Show error message
