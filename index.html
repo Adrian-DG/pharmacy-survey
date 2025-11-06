@@ -68,6 +68,9 @@
                 </p>
             </div>
 
+            <!-- Survey form -->
+            <form id="surveyForm" action="/submit-survey" method="POST">
+
             <!-- first survey section -->
 
             <div class="container">
@@ -83,23 +86,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="waiting_area" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="waiting_area" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="waiting_area" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="waiting_area" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="waiting_area" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -115,23 +118,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="dispensing_access" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="dispensing_access" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="dispensing_access" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="dispensing_access" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="dispensing_access" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -147,23 +150,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="temperature" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="temperature" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="temperature" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="temperature" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="temperature" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -179,23 +182,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="hours_of_operation" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="hours_of_operation" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="hours_of_operation" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="hours_of_operation" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="hours_of_operation" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -211,23 +214,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="wait_time" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="wait_time" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="wait_time" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="wait_time" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="wait_time" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -244,23 +247,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="confidentiality" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="confidentiality" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="confidentiality" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="confidentiality" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="confidentiality" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -284,23 +287,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_pleasant" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_pleasant" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_pleasant" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_pleasant" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_pleasant" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -317,23 +320,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_willing_to_answer" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_willing_to_answer" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_willing_to_answer" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_willing_to_answer" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_willing_to_answer" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -349,23 +352,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_time_dedication" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_time_dedication" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_time_dedication" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_time_dedication" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_time_dedication" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -381,23 +384,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_answer_questions" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_answer_questions" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_answer_questions" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_answer_questions" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="staff_answer_questions" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -421,23 +424,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="trust_in_pharmacist" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="trust_in_pharmacist" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="trust_in_pharmacist" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="trust_in_pharmacist" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="trust_in_pharmacist" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -453,23 +456,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="feel_better" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="feel_better" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="feel_better" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="feel_better" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="feel_better" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -485,23 +488,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_about_results" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_about_results" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_about_results" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_about_results" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_about_results" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -518,23 +521,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="checks_medication" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="checks_medication" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="checks_medication" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="checks_medication" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="checks_medication" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -550,23 +553,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="solves_treatment_needs" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="solves_treatment_needs" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="solves_treatment_needs" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="solves_treatment_needs" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="solves_treatment_needs" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -589,23 +592,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_how_to_take" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_how_to_take" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_how_to_take" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_how_to_take" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_how_to_take" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -621,23 +624,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_effects" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_effects" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_effects" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_effects" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="explains_effects" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -653,23 +656,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="can_discuss_problems" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="can_discuss_problems" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="can_discuss_problems" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="can_discuss_problems" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="can_discuss_problems" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -685,23 +688,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="warns_adverse_effects" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="warns_adverse_effects" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="warns_adverse_effects" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="warns_adverse_effects" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="warns_adverse_effects" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -719,23 +722,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="positive_conclusion" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="positive_conclusion" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="positive_conclusion" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="positive_conclusion" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="positive_conclusion" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -752,23 +755,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_health_changes" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_health_changes" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_health_changes" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_health_changes" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="asks_health_changes" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -791,23 +794,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="general_satisfaction" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="general_satisfaction" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="general_satisfaction" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="general_satisfaction" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="general_satisfaction" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -823,23 +826,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="room_for_improvement" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="room_for_improvement" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="room_for_improvement" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="room_for_improvement" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="room_for_improvement" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -855,23 +858,23 @@
                             <div class="col-sm-6 text-right">
                                 <div class="form-check-inline">
                                     <label data-toggle="tooltip" title="Muy en desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="excellent_attention" value="1">
                                         <i class="far fa-angry"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="En desacuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="excellent_attention" value="2">
                                         <i class="far fa-frown"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="No estoy seguro" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="excellent_attention" value="3">
                                         <i class="far fa-meh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="De acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="excellent_attention" value="4">
                                         <i class="far fa-laugh"></i>
                                     </label>
                                     <label data-toggle="tooltip" title="Muy de acuerdo" class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="op-radio">
+                                        <input type="radio" class="form-check-input" name="excellent_attention" value="5">
                                         <i class="far fa-grin-stars"></i>
                                     </label>
                                 </div>
@@ -894,11 +897,17 @@
                                     familia.</p>
                             </div>
                             <div class="col-sm-4">
-                                <button type="submit">Enviar</button>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
                             </div>
                         </div>
                     </li>
                 </ul>
+            </div>
+            </form>
+            
+            <!-- Response message -->
+            <div id="responseMessage" class="container mt-3" style="display: none;">
+                <div class="alert" role="alert"></div>
             </div>
         </div>
     </div>
